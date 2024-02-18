@@ -1,0 +1,16 @@
+.grid-container {
+  display: grid;
+  background-color: darkgray;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.grid-container div {
+  background-color: darkolivegreen;
+  border: 5px solid black;
+  color: white;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}

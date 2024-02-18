@@ -1,0 +1,36 @@
+.grid-container {
+  display: grid;
+  background-color: darkgray;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.grid-container div {
+  background-color: darkolivegreen;
+
+  color: white;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+}
+a:hover {
+  color: white;
+  background-color: blueviolet;
+}
+.uno:hover {
+  background-color: rgb(205, 114, 17);
+  box-shadow: 2px 2px 5px rgb(252, 5, 5);
+  text-decoration: underline;
+}
+.seis:hover {
+  background-color: blue;
+  box-shadow: 10px 2px 5px rgb(252, 5, 5);
+}
+.dos:hover {
+  background-color: blue;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+a {
+  text-decoration: none;
+}
